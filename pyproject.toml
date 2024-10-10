@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "majinmock"
+version = "0.1.0"
+description = ""
+authors = ["lucaslima18 <lucas.ala1999@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+typer = "^0.12.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
